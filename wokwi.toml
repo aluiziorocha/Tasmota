@@ -1,0 +1,12 @@
+[wokwi]
+version = 1
+elf = ".pio/build/tasmota32_base/firmware.elf"
+firmware = ".pio/build/tasmota32_base/firmware.bin"
+
+# Redirect port TCP 4000 to device serial port
+rfc2217ServerPort = 4000
+
+# Forward http://localhost:8180 to port 80 on the simulated ESP32:
+[[net.forward]]
+from = "localhost:8180"
+to = "target:80"

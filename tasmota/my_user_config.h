@@ -72,7 +72,7 @@
 #define WIFI_DNS2              "0.0.0.0"         // [IpAddress5] If not using DHCP set DNS2 IP address (might be equal to WIFI_GATEWAY)
 
 #ifndef STA_SSID1
-#define STA_SSID1              ""                // [Ssid1] Wi-Fi SSID
+#define STA_SSID1              "Wokwi-GUEST"     // [Ssid1] Wi-Fi SSID
 #endif
 #ifndef STA_PASS1
 #define STA_PASS1              ""                // [Password1] Wi-Fi password
