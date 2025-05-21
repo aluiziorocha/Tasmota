@@ -1,5 +1,7 @@
 [wokwi]
 version = 1
+
+# First you have to compile tasmota32-safeboot, then compile and use tasmota32_base
 elf = ".pio/build/tasmota32_base/firmware.elf"
 firmware = ".pio/build/tasmota32_base/firmware.bin"
 
