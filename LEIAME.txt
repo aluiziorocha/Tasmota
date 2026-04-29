@@ -1,0 +1,12 @@
+O Wokwi for VS Code está pré-configurado para executar o firmware tasmota32_base. Assim, 
+para compilar este firmware, siga os seguintes passos:
+1. Clique no ícone do PlatformIO;
+2. No menu "PROJECT TASKS", selecione a pasta "tasmota32-safeboot" > "General", espere um 
+   pouco até aparecer a opção Build, para em seguida clicar nesta opção.
+3. Repita o passo 2 para a pasta "tasmota32-base".
+4. Se as duas compilações foram feitas com sucesso, abra o arquivo diagram.json e inicie
+   a simulação.
+
+O Tasmota iniciará sem qualquer configuração do módulo. Na pasta raiz do projeto, o 
+  arquivo Config_tasmota.dmp tem uma configuração básica para controlar os dois leds do
+  ESP32.
